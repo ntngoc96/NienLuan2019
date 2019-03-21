@@ -1,6 +1,6 @@
 git clone "https://github.com/ntngoc96/NienLuan2019.git"
 
-cd NienLuan
+cd NienLuan2019
 
 git clone "https://github.com/jacksonliam/mjpg-streamer"
 
