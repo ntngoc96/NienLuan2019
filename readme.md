@@ -31,12 +31,19 @@ sudo make install
 
 
 //Enable the experimental HTTP management feature
+
 cd mjpg-streamer-experimental
+
 mkdir _build
+
 cd _build
+
 cmake -DENABLE_HTTP_MANAGEMENT=ON ..
+
 make
+
 sudo make install
+
 
 ./mjpg_streamer -o "output_http.so -w ./www" -i "input_uvc.so"  //test mjpg working or not
 
