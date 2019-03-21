@@ -1,0 +1,26 @@
+{
+  "name": "testopencv",
+  "version": "1.0.0",
+  "description": "hihi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --inspect index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntngoc96/NienLuan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ntngoc96/NienLuan/issues"
+  },
+  "homepage": "https://github.com/ntngoc96/NienLuan#readme"
+}
