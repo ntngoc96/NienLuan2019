@@ -6,6 +6,8 @@ git clone "https://github.com/jacksonliam/mjpg-streamer"
 
 cd mjpg-streamer
 
+mkdir tmp //folder store video livestream
+
 //run command of mjpg
 
 Simple compilation
