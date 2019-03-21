@@ -4,9 +4,9 @@ cd NienLuan2019
 
 git clone "https://github.com/jacksonliam/mjpg-streamer"
 
-cd mjpg-streamer
-
 mkdir tmp //folder store video livestream
+
+cd mjpg-streamer
 
 //run command of mjpg
 
