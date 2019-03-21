@@ -1,4 +1,4 @@
-git clone "https://github.com/ntngoc96/NienLuan.git"
+git clone "https://github.com/ntngoc96/NienLuan2019.git"
 
 cd NienLuan
 
