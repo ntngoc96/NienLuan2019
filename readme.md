@@ -10,19 +10,19 @@ cd mjpg-streamer
 
 //run command of mjpg
 
-Simple compilation
+//Simple compilation
 cd mjpg-streamer-experimental
 make
 sudo make install
 
-Compile with debugging symbols
+//Compile with debugging symbols
 cd mjpg-streamer-experimental
 make distclean
 make CMAKE_BUILD_TYPE=Debug
 sudo make install
 
 
-Enable the experimental HTTP management feature
+//Enable the experimental HTTP management feature
 cd mjpg-streamer-experimental
 mkdir _build
 cd _build
