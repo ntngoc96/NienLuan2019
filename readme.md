@@ -21,7 +21,7 @@ sudo make install
 
 //Compile with debugging symbols
 
-cd mjpg-streamer-experimental
+//cd mjpg-streamer-experimental
 
 make distclean
 
@@ -32,7 +32,7 @@ sudo make install
 
 //Enable the experimental HTTP management feature
 
-cd mjpg-streamer-experimental
+//cd mjpg-streamer-experimental
 
 mkdir _build
 
@@ -44,14 +44,18 @@ make
 
 sudo make install
 
+cd ..
 
 ./mjpg_streamer -o "output_http.so -w ./www" -i "input_uvc.so"  //test mjpg working or not
 
 //end of command of mjpg
 
-cd NienLuan
+cd NienLuan2019
 
 npm install
 
 //start script
 npm run dev
+
+//browser
+http://localhost:3000/
