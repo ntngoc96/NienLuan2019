@@ -11,14 +11,22 @@ cd mjpg-streamer
 //run command of mjpg
 
 //Simple compilation
+
 cd mjpg-streamer-experimental
+
 make
+
 sudo make install
 
+
 //Compile with debugging symbols
+
 cd mjpg-streamer-experimental
+
 make distclean
+
 make CMAKE_BUILD_TYPE=Debug
+
 sudo make install
 
 
