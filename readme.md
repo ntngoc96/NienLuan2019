@@ -1,61 +1,63 @@
-git clone "https://github.com/ntngoc96/NienLuan2019.git"
+# Live Stream Application
+## Installation
+```
+  $ git clone "https://github.com/ntngoc96/NienLuan2019.git"
 
-cd NienLuan2019
+  $ cd NienLuan2019
 
-git clone "https://github.com/jacksonliam/mjpg-streamer"
+  $ git clone "https://github.com/jacksonliam/mjpg-streamer"
 
-mkdir tmp //folder store video livestream
+  $ mkdir tmp //folder store video livestream
 
-cd mjpg-streamer
+  $ cd mjpg-streamer
+```
+  ### Run command of mjpg
+```
+  //Simple compilation
 
-//run command of mjpg
+  $ cd mjpg-streamer-experimental
 
-//Simple compilation
+  $ make
 
-cd mjpg-streamer-experimental
-
-make
-
-sudo make install
-
-
-//Compile with debugging symbols
-
-//cd mjpg-streamer-experimental
-
-make distclean
-
-make CMAKE_BUILD_TYPE=Debug
-
-sudo make install
+  $ sudo make install
 
 
-//Enable the experimental HTTP management feature
+  //Compile with debugging symbols
 
-//cd mjpg-streamer-experimental
+  //cd mjpg-streamer-experimental
 
-mkdir _build
+  $ make distclean
 
-cd _build
+  $ make CMAKE_BUILD_TYPE=Debug
 
-cmake -DENABLE_HTTP_MANAGEMENT=ON ..
+  $ sudo make install
 
-make
+  //Enable the experimental HTTP management feature
 
-sudo make install
+  //cd mjpg-streamer-experimental
 
-cd ..
+  $ mkdir _build
 
-./mjpg_streamer -o "output_http.so -w ./www" -i "input_uvc.so"  //test mjpg working or not
+  $ cd _build
 
-//end of command of mjpg
+  $ cmake -DENABLE_HTTP_MANAGEMENT=ON ..
 
-cd NienLuan2019
+  $ make
 
-npm install
+  $ sudo make install
+```
+## Check install
+  ```
+   $ cd ..
 
-//start script
-npm run dev
+  $ ./mjpg_streamer -o "output_http.so -w ./www" -i "input_uvc.so"  //test mjpg working or not
 
-//browser
-http://localhost:3000/
+  $ cd NienLuan2019
+
+  $ npm install
+
+  //start script
+  $ npm run dev
+  ```
+  ### Open on browser
+  http://localhost:3000/
